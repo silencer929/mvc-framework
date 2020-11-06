@@ -1,0 +1,109 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: sans-serif;
+}
+body{
+	height: 100vh;
+}
+#nav-bar{
+	top: 0;
+	position: sticky;
+	height: 60px;
+	display: flex;
+	justify-content: space-around;
+	background-color: #aaa;
+	z-index: 2;
+}
+.logo{
+	height: 60px;
+	width: 60px;
+	border-radius: 30px;
+	overflow: hidden;
+}
+.image{
+	display: block;
+	width:100%;
+}
+.menu{
+display: flex;
+}
+.menu {
+	display: flex;
+	background-color: ;
+	font-size: 18px;
+	text-transform: capitalize;
+	letter-spacing: 2px;
+	align-items: center;
+}
+.menu ul{
+	display: flex;
+	width: auto
+}
+.menu ul li{
+	list-style-type: none;
+	margin: 0 20px;
+}
+.menu ul li a{
+	color :#ccc;
+	text-decoration: none;
+}
+.menu ul li a:hover{
+	text-decoration: underline;
+	color: #ee5;
+}
+.login-register{
+	justify-content: space-around;
+	width:100%;
+}
+.btn{
+	padding: 5px 10px;
+	border-radius: 5px;
+	font-size: 15px;
+	font-weight: bold;
+	outline: none;
+}
+.btn a{
+	color:#fff;
+}
+.btn:hover,.btn a:hover{
+	background-color:#ccc;
+	text-decoration: none;
+}
+.banner{
+	min-height: calc(100vh - 60px);
+	width: 100%;
+	background-image: linear-gradient(rgba(28,28,28,0.6),rgba(25,25,25,0.5)),url(/project/public/img/city3.jpg);
+	background-size: cover;
+	background-attachment: ;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.banner p{
+	color: #fff;
+}
+.container h2,h1,h3{
+	text-transform:capitalize;
+	color: #fff;
+}
+form{
+	height:400px;
+	width: 300px;
+	margin: 0px auto;
+	margin-top: 50px;
+	border: 1px solid orange;
+	font-size: 20px;
+	color: orange;
+}
+.error{
+margin-top: 60px;
+	height: 100%;
+	width: 100%;
+	font-size: 20px;
+	font-weight: bold;	
+}
+small{
+	color: red;
+}
+/*/
+/*background-image: linear-gradient(rgba(28,28,28,0.6),rgba(25,25,25,0.5)),url(/login/img/city3.jpg);*/

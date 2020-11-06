@@ -1,0 +1,31 @@
+#registerForm{
+	margin: 150px auto;
+	height: 500px;
+	width: 300px;
+	border: 2px solid #fff;
+	text-align: center;
+}
+#registerForm h2{
+	color: orange;
+	margin-top: 20px;
+}
+.inputs{
+	margin: 20px 0;
+}
+.inputs input{
+	margin: 10px auto;
+	padding: 10px 20px;
+}
+#register-btn{
+	width: 216px;
+	padding: 10px 20px;
+	font-size: 20px;
+	text-transform: uppercase;
+	border-radius: 5px;
+	outline: none;
+	background-color: #aaa;
+}
+#register-btn:hover{
+	background-color: lightgrey;
+	color: darkblue;
+}

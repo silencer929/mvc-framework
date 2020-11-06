@@ -1,0 +1,16 @@
+{
+    "name": "mercy/app",
+    "authors": [
+        {
+            "name": "peter",
+            "email": "petermbugua9292@gmail.com"
+        }
+    ],
+    "autoload":{
+    	"psr-4":{
+    		"app\\":"./"
+    	},
+        "files":["defines.php","core/controller.php","core/logic.php","core/application.php","core/session.php","core/middleware/authMiddleware.php"]
+    },
+    "require": {}
+}
